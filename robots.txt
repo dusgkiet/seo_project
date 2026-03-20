@@ -1,0 +1,10 @@
+# Cho phép tất cả các công cụ tìm kiếm (Google, Bing, v.v.)
+User-agent: *
+Allow: /
+
+# Chặn truy cập vào các thư mục quản trị hoặc file cấu hình (nếu có sau này)
+Disallow: /admin/
+Disallow: /config/
+
+# Khai báo đường dẫn đến Sơ đồ trang web để Google tìm thấy nhanh hơn
+Sitemap: https://smartnexus.vn/sitemap.xml
